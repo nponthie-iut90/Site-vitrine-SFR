@@ -1,0 +1,461 @@
+@font-face {
+    font-family: 'Calibri Regular';
+    src: url('../../polices/Calibri.ttf') format('truetype');
+}
+
+* {
+    font-family: 'Calibri regular', sans-serif;
+    background-color: #f2f2f2;
+}
+
+h1 {
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+h2 {
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    border-bottom: 1px solid #181818;
+    background-color: #ffff;
+}
+
+header a {
+    text-decoration: none;
+}
+
+header ul {
+    margin:0;
+    padding:0;
+    background-color: #ffff;
+}
+
+header li {
+    list-style: none;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    width: 150px;
+    background-color: #ffff;
+}
+
+header li a {
+    display: block;
+    padding: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+header li a:hover {
+    background-color: #d90d25;
+    color: #ffff;
+}
+
+header li:hover .sub-menu {
+    display: block;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 1000px;
+}
+
+.sub-menu {
+    display: none;
+    position: absolute;
+}
+
+.sub-menu li {
+    display: block;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    height: 80px;
+    width: 80px;
+    margin: 10px;
+}
+
+nav {
+    display: inline-block;
+}
+
+.Derniers-articles {
+    margin-top: 100px;
+}
+
+.Derniers-articles span {
+    background-color: yellow;
+    background-clip: content-box;
+}
+
+.Derniers-articles h1 {
+    text-align: left;
+    background-color: #f2f2f2;
+    text-align: center;
+}
+
+.presentation {
+    margin: 20px;
+    border: 1px solid white;
+    box-shadow: 1px 3px 4px 0px grey;
+    background-color: #ffff;
+    border-radius: 20px;
+}
+
+.presentation h1, h2 {
+    background-color: #ffff;
+}
+
+/* initialisation de la grille 2 colonnes 3 lignes */
+
+.grid {
+    display: grid;
+    place-items: center;
+    border-radius: 20px;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    row-gap: 20px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+/* position dans la grid */
+
+#item1 {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+#item2 {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+#item3 {
+    grid-column: 1;
+    grid-row: 3;
+}
+
+#item4 {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+#item5 {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+#item6 {
+    grid-column: 2;
+    grid-row: 3;
+}
+
+a {
+    color: #d90d25;
+    background-color: #ffff;
+    font-weight: bold;
+}
+
+.grid-1{
+    background-color: #ffff;
+    border-radius: 15px 0px 0px 15px; /* Bords arrondis */
+    min-width: 100%; /* la case fait toujours 100% de large */
+    height: 100%; /* la case fait toujours 100% de haut */
+    display: flex; /* image centrée */
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 10px 0px grey;
+}
+
+.grid-2{
+    background-color: #ffff;
+    border-radius: 0px 15px 15px 0px; /* Bords arrondis */
+    min-width: 100%; /* responsive */
+    height: 100%; /* responsive */
+    box-shadow: 0px 0px 10px 0px grey;
+}
+
+.grid-2 p {
+    margin-right: 20px;
+    margin-left: 20px
+}
+
+.grid-2 a {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.grid-3{
+    background-color: #ffff;
+    border-radius: 15px 0px 0px 15px; /* Bords arrondis */
+    min-width: 100%; /* responsive */
+    height: 100%; /* responsive */
+    box-shadow: 0px 0px 10px 0px grey;
+}
+
+.grid-3 p {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.grid-3 a {
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+.grid-4{
+    background-color: #ffff;
+    border-radius: 0px 15px 15px 0px; /* Bords arrondis */
+    min-width: 100%; /* responsive */
+    height: 100%; /* responsive */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 10px 0px grey;
+}
+
+.grid-5{
+    background-color: #ffff;
+    border-radius: 15px 0px 0px 15px; /* Bords arrondis */
+    min-width: 100%; /* responsive */
+    height: 100%; /* responsive */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 10px 0px grey;
+}
+
+.grid-6{
+    background-color: #ffff;
+    border-radius: 0px 15px 15px 0px; /* Bords arrondis */
+    min-width: 100%; /* responsive */
+    height: 100%; /* responsive */
+    box-shadow: 0px 0px 10px 0px grey;
+}
+
+.grid-6 p {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.grid-6 a {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.grid img {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%; /* responsive */
+    height: 95%; /* responsive */
+    box-shadow: 5px 5px 7px 0px #d90d25;
+}
+
+p {
+    background-color: #ffff;
+}
+
+footer {
+    width: 100%;
+    max-width: 100%;
+    margin-top: 50px;
+    padding-bottom: 5px;
+    background-color: #181818;
+}
+
+footer a, h3, strong {
+    color: #ffff;
+    background-color: #181818;
+}
+
+footer strong {
+    font-size: 20px;
+}
+
+.footer {
+    width: 20%;
+    background-color: #181818;
+}
+
+footer img {
+    height: 80px;
+    width: 80px;
+    margin-top: 20px;
+}
+
+.tfooter {
+    display: flex;
+    justify-content:left;
+    align-items: flex-start;
+    background-color: #181818;
+}
+
+footer ul {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10px;
+    background-color: #181818;
+}
+
+footer li {
+    list-style: none;
+    background-color: #181818;
+}
+
+li img {
+    height: 20px;
+    width: 20px;
+    margin-top: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:600px) {
+
+    .grid {
+        display: grid;
+        place-items: center;
+        border-radius: 20px;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        margin-left: 20px;
+        margin-right: 20px;
+        row-gap: 0;
+    }
+
+    #item1 {
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    #item2 {
+        grid-column: 1;
+        grid-row: 3;        
+    }
+
+    #item3 {
+        grid-column: 1;
+        grid-row: 5;
+    }
+
+    #item4 {
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    #item5 {
+        grid-column: 1;
+        grid-row: 4;
+    }
+
+    #item6 {
+        grid-column: 1;
+        grid-row: 6;
+    }
+
+    .grid-1{
+        background-color: #ffff;
+        border-radius: 15px 15px 0px 0px; /* Bords arrondis */
+        min-width: 100%; /* la case fait toujours 100% de large */
+        height: 100%; /* la case fait toujours 100% de haut */
+        display: flex; /* image centrée */
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .grid-2{
+        background-color: #ffff;
+        border-radius: 0px 0px 15px 15px; /* Bords arrondis */
+        min-width: 100%; /* responsive */
+        height: 100%; /* responsive */
+        margin-bottom: 20px;
+    }
+    
+    .grid-2 p {
+        margin-right: 20px;
+    }
+    
+    .grid-3{
+        background-color: #ffff;
+        border-radius: 0px 0px 15px 15px; /* Bords arrondis */
+        min-width: 100%; /* responsive */
+        height: 100%; /* responsive */
+        margin-bottom: 20px;
+    }
+    
+    .grid-3 p {
+        margin-left: 20px;
+    }
+    
+    .grid-3 a {
+        margin-left: 20px;
+    }
+    
+    .grid-4{
+        background-color: #ffff;
+        border-radius: 15px 15px 0px 0px; /* Bords arrondis */
+        min-width: 100%; /* responsive */
+        height: 100%; /* responsive */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .grid-5{
+        background-color: #ffff;
+        border-radius: 15px 15px 0px 0px; /* Bords arrondis */
+        min-width: 100%; /* responsive */
+        height: 100%; /* responsive */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .grid-6{
+        background-color: #ffff;
+        border-radius: 0px 0px 15px 15px; /* Bords arrondis */
+        min-width: 100%; /* responsive */
+        height: 100%; /* responsive */
+        margin-bottom: 20px;
+    }
+    
+    .grid-6 p {
+        margin-right: 20px;
+    }
+    
+    .grid img {
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-left: auto;
+        margin-right: auto;
+        width: 85%; /* responsive */
+        height: 85%; /* responsive */
+    }
+
+    .footer {
+        width: 33%;
+    }
+}

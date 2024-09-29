@@ -1,0 +1,311 @@
+@font-face {
+    font-family: 'Calibri Regular';
+    src: url('../../polices/Calibri.ttf') format('truetype');
+}
+
+* {
+    font-family: 'Calibri regular', sans-serif;
+    background-color: #f2f2f2;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    border-bottom: 1px solid #181818;
+    background-color: #ffff;
+}
+
+header a {
+    text-decoration: none;
+}
+
+header ul {
+    margin:0;
+    padding:0;
+    background-color: #ffff;
+}
+
+header li {
+    list-style: none;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    width: 150px;
+    background-color: #ffff;
+}
+
+header li a {
+    display: block;
+    padding: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+header li a:hover {
+    background-color: #d90d25;
+    color: #ffff;
+}
+
+header li:hover .sub-menu {
+    display: block;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 1000px;
+}
+
+.sub-menu {
+    display: none;
+    position: absolute;
+}
+
+.sub-menu li {
+    display: block;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    height: 80px;
+    width: 80px;
+    margin: 10px;
+}
+
+nav {
+    display: inline-block;
+}
+
+p {
+    background-color: #ffff;
+}
+
+a {
+    color: #d90d25;
+    background-color: #ffff;
+    font-weight: bold;
+}
+
+/*début du corp*/
+
+#h3-1{
+    background-color: #f2f2f2;
+    color: black;
+    margin-left: 50px;
+}
+
+#h3-2{
+    background-color: #f2f2f2;
+    color:black;
+    margin-left: 50px;
+}
+
+#h3-3{
+    background-color: #f2f2f2;
+    color: black;
+    margin-left: 50px;
+}
+
+#h3-4{
+    background-color:#f2f2f2;
+    color: black;
+    margin-left: 50px;
+}
+
+#h3-5{
+    background-color: #f2f2f2;
+    color: black;
+    margin-left: 50px;
+}
+
+
+#Titre1{
+    text-align: center;
+}
+
+#Sous-titre1{
+    margin-left:50px;
+}
+
+#Sous-titre2{
+    margin-left:50px;
+}
+
+#Sous-titre3{
+    margin-left:50px;
+}
+
+.grid-a {
+    
+    place-items: center;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    row-gap: 20px;
+    grid-gap: 30px;
+    margin-left: 10%;
+    margin-right: 10%;
+    display:flex;
+    background-color: #f2f2f2;
+}
+
+
+.grid-c{
+    display: flex;
+    background-color: #f2f2f2;
+    margin-left:10%;
+    grid-gap:30px;
+}
+
+.grid-d{
+    display: flex;
+    background-color: #f2f2f2;
+    margin-left:10%;
+    grid-gap:30px;   
+}
+
+.grid-e{
+    display: flex;
+    background-color: #f2f2f2;
+    margin-left:10%;
+    grid-gap:30px;   
+}
+
+.grid-f{
+    display: flex;
+    background-color: #f2f2f2;
+    margin-left:10%;
+    grid-gap:30px;   
+}
+
+.grid-g{
+    background-color: #ffff;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 10px;
+}
+
+.grid-ab{
+    display: flex;
+    background-color: #f2f2f2;
+    margin-left:10%;
+    grid-gap:30px;     
+}
+
+#p-last{
+    background-color: #ffff;
+    margin-left: 20px;
+
+}
+
+
+#link{
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+
+.grid-1{
+    background-color: #f2f2f2;
+    border-radius: 0px 0px 0px 0px; /* Bords arrondis */
+    min-width: 100%; /* responsive */
+    height: 100%; /* responsive */
+    margin-top: 20px;   
+}
+
+
+.grid-5{
+    margin-left: 120px;
+}
+
+.grid-7{
+    margin-left: 80px;
+}
+
+#image-container {
+    grid-column: 1;
+    grid-row: 1;
+    display:flex;
+}
+
+.grid-0 {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+p{
+    background-color: #f2f2f2;
+    margin-right: 100px;
+}
+
+#image1{
+    margin-bottom: 30px;
+}
+
+#image2{
+    margin-left:-50px;
+}
+
+
+
+/*fin du corp*/
+
+
+footer {
+    width: 100%;
+    max-width: 100%;
+    margin-top: 50px;
+    padding-bottom: 5px;
+    background-color: #181818;
+}
+
+footer a, h3, strong {
+    color: #ffff;
+    background-color: #181818;
+}
+
+footer strong {
+    font-size: 20px;
+}
+
+.footer {
+    width: 20%;
+    background-color: #181818;
+}
+
+footer img {
+    height: 80px;
+    width: 80px;
+    margin-top: 20px;
+}
+
+.tfooter {
+    display: flex;
+    justify-content:left;
+    align-items: flex-start;
+    background-color: #181818;
+}
+
+footer ul {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10px;
+    background-color: #181818;
+}
+
+footer li {
+    list-style: none;
+    background-color: #181818;
+}
+
+li img {
+    height: 20px;
+    width: 20px;
+    margin-top: 0px;
+}
+
+@media (max-width:600px) {
+    .footer {
+        width: 33%;
+    }
+}
