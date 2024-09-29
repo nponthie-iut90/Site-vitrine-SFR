@@ -14,10 +14,10 @@ Pour visulaiser le site, il vous suffit de cloner le projet puis d'ouvrir le fic
 
 ## Développement:
 
-Nathan PONTHIEU
-Mickaël MARCO
-Ibrahima NGOM
-Simone-désirée ZIGGAR
+- Nathan PONTHIEU
+- Mickaël MARCO
+- Ibrahima NGOM
+- Simone-désirée ZIGGAR
 
 ## Statut du projet
 
