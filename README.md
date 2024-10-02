@@ -1,23 +1,35 @@
 # Site vitrine SFR
 
-Ce site est un site de présentation de l'entreprise de SFR, qui avait pour but de nous faire découvrir HTML/CSS dans le cadre de notre premier projet de groupe de B.U.T informatique.  
-Ce projet a été réalisé dans un groupe de 4 étudiants.
+Ce projet est un site web vitrine pour présenter l'entreprise *SFR*. Le projet a été réalisé en HTML/CSS dans un groupe de 4 étudiants.
 
-## Architecture
+## Sommaire
 
-Le répertoire pages contient les différentes pages HTML dans les différentes langues.  
-Le reste des répertoires contient les fichiers nécésssaires pour le style et les images du site.
+1. [Installation](#installation)
+2. [Utilisation](#utilisation)
+3. [Auteurs](#auteurs)
+4. [Satut du projet](#statut-du-projet)
+
+## Installation
+
+1. Récupérer le projet
+```bash
+git clone https://github.com/nponthie-iut90/Site-vitrine-SFR
+cd Site-vitrine-SFR
+```
+
+2. Accéder au site  
+   Pour accéder au site, il faut lancer la page [index.html](index.html) dans un navigateur.
 
 ## Utilisation
 
-Pour visulaiser le site, il vous suffit de cloner le projet puis d'ouvrir le fichier `index.html` pour commencer la navigation sur le site.
+Une fois la page [index.html](index.html) lancée comme mentionnée plus haut, vous pourrez naviguez sur le site.
 
-## Développement:
+## Auteurs
 
-- Nathan PONTHIEU
-- Mickaël MARCO
-- Ibrahima NGOM
-- Simone-désirée ZIGGAR
+- [Nathan PONTHIEU](https://github.com/nponthie-iut90)
+- [Mickaël MARCO](https://github.com/mmarco-iut90)
+- [Simone Désirée ZIGARR](https://github.com/sdziggar-iut90)
+- [Ibrahima NGOM](https://github.com/ingom-iut90)
 
 ## Statut du projet
 
